@@ -4,8 +4,8 @@ import plotly.express as px
 
 st.title("Escenarios de implementación del modelo de Optimización")
 
-df1 = pd.read_csv("CatEmisora.csv")
-df2 = pd.read_csv("ListaCobro.csv")
+df1 = pd.read_csv("Minimizar.csv")
+df2 = pd.read_csv("Maximizar.csv")
 
 if 'mostrar_df1' not in st.session_state:
     st.session_state.mostrar_df1 = False
